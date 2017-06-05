@@ -8,22 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		067813C21EE5991E0002DDAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067813C11EE5991E0002DDAE /* AppDelegate.swift */; };
-		067813C41EE5991E0002DDAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067813C31EE5991E0002DDAE /* ViewController.swift */; };
+		067813C41EE5991E0002DDAE /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067813C31EE5991E0002DDAE /* WelcomeVC.swift */; };
 		067813C71EE5991E0002DDAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067813C51EE5991E0002DDAE /* Main.storyboard */; };
 		067813CA1EE5991E0002DDAE /* Erela.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 067813C81EE5991E0002DDAE /* Erela.xcdatamodeld */; };
 		067813CC1EE5991E0002DDAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 067813CB1EE5991E0002DDAE /* Assets.xcassets */; };
 		067813CF1EE5991E0002DDAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067813CD1EE5991E0002DDAE /* LaunchScreen.storyboard */; };
+		067813D71EE59A190002DDAE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 067813D61EE59A190002DDAE /* GoogleService-Info.plist */; };
+		067813E61EE5A0DA0002DDAE /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067813DC1EE5A0DA0002DDAE /* UIButtonX.swift */; };
+		067813E71EE5A0DA0002DDAE /* UIImageViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067813DD1EE5A0DA0002DDAE /* UIImageViewX.swift */; };
+		067813E81EE5A0DA0002DDAE /* UILabelX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067813DE1EE5A0DA0002DDAE /* UILabelX.swift */; };
+		067813E91EE5A0DA0002DDAE /* UISliderX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067813DF1EE5A0DA0002DDAE /* UISliderX.swift */; };
+		067813EA1EE5A0DA0002DDAE /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067813E01EE5A0DA0002DDAE /* UITextFieldX.swift */; };
+		067813EB1EE5A0DA0002DDAE /* UIViewAnchorPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067813E11EE5A0DA0002DDAE /* UIViewAnchorPoint.swift */; };
+		067813EC1EE5A0DA0002DDAE /* UIViewControllerX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067813E21EE5A0DA0002DDAE /* UIViewControllerX.swift */; };
+		067813ED1EE5A0DA0002DDAE /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067813E31EE5A0DA0002DDAE /* UIViewX.swift */; };
+		067813EE1EE5A0DA0002DDAE /* UIViewXRadialGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067813E41EE5A0DA0002DDAE /* UIViewXRadialGradient.swift */; };
+		067813EF1EE5A0DA0002DDAE /* UIVisualEffectViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067813E51EE5A0DA0002DDAE /* UIVisualEffectViewX.swift */; };
+		067813F11EE5A13F0002DDAE /* SignInVCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067813F01EE5A13F0002DDAE /* SignInVCView.swift */; };
+		108A1D646C1E852D56ECE15D /* Pods_Erela.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C699DD4E8D340FDF15777A7 /* Pods_Erela.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		067813BE1EE5991E0002DDAE /* Erela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Erela.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		067813C11EE5991E0002DDAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		067813C31EE5991E0002DDAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		067813C31EE5991E0002DDAE /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		067813C61EE5991E0002DDAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		067813C91EE5991E0002DDAE /* Erela.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Erela.xcdatamodel; sourceTree = "<group>"; };
 		067813CB1EE5991E0002DDAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		067813CE1EE5991E0002DDAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		067813D01EE5991E0002DDAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		067813D61EE59A190002DDAE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		067813DC1EE5A0DA0002DDAE /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		067813DD1EE5A0DA0002DDAE /* UIImageViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewX.swift; sourceTree = "<group>"; };
+		067813DE1EE5A0DA0002DDAE /* UILabelX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelX.swift; sourceTree = "<group>"; };
+		067813DF1EE5A0DA0002DDAE /* UISliderX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISliderX.swift; sourceTree = "<group>"; };
+		067813E01EE5A0DA0002DDAE /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
+		067813E11EE5A0DA0002DDAE /* UIViewAnchorPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewAnchorPoint.swift; sourceTree = "<group>"; };
+		067813E21EE5A0DA0002DDAE /* UIViewControllerX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerX.swift; sourceTree = "<group>"; };
+		067813E31EE5A0DA0002DDAE /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		067813E41EE5A0DA0002DDAE /* UIViewXRadialGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewXRadialGradient.swift; sourceTree = "<group>"; };
+		067813E51EE5A0DA0002DDAE /* UIVisualEffectViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVisualEffectViewX.swift; sourceTree = "<group>"; };
+		067813F01EE5A13F0002DDAE /* SignInVCView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVCView.swift; sourceTree = "<group>"; };
+		1C699DD4E8D340FDF15777A7 /* Pods_Erela.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Erela.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C9759F03DCEFC702F74AD4 /* Pods-Erela.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Erela.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Erela/Pods-Erela.debug.xcconfig"; sourceTree = "<group>"; };
+		80624634B75100A7452EE7CD /* Pods-Erela.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Erela.release.xcconfig"; path = "Pods/Target Support Files/Pods-Erela/Pods-Erela.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				108A1D646C1E852D56ECE15D /* Pods_Erela.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +71,8 @@
 			children = (
 				067813C01EE5991E0002DDAE /* Erela */,
 				067813BF1EE5991E0002DDAE /* Products */,
+				87F0452059E1CE50265398F1 /* Pods */,
+				1DC910A1C170DB76A399891B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +87,76 @@
 		067813C01EE5991E0002DDAE /* Erela */ = {
 			isa = PBXGroup;
 			children = (
+				067813DB1EE5A0DA0002DDAE /* DesignableX */,
+				067813DA1EE5A0A20002DDAE /* Controller */,
+				067813D91EE5A08E0002DDAE /* View */,
+				067813D81EE5A0870002DDAE /* Model */,
 				067813C11EE5991E0002DDAE /* AppDelegate.swift */,
-				067813C31EE5991E0002DDAE /* ViewController.swift */,
 				067813C51EE5991E0002DDAE /* Main.storyboard */,
 				067813CB1EE5991E0002DDAE /* Assets.xcassets */,
 				067813CD1EE5991E0002DDAE /* LaunchScreen.storyboard */,
 				067813D01EE5991E0002DDAE /* Info.plist */,
 				067813C81EE5991E0002DDAE /* Erela.xcdatamodeld */,
+				067813D61EE59A190002DDAE /* GoogleService-Info.plist */,
 			);
 			path = Erela;
+			sourceTree = "<group>";
+		};
+		067813D81EE5A0870002DDAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		067813D91EE5A08E0002DDAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		067813DA1EE5A0A20002DDAE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				067813C31EE5991E0002DDAE /* WelcomeVC.swift */,
+				067813F01EE5A13F0002DDAE /* SignInVCView.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		067813DB1EE5A0DA0002DDAE /* DesignableX */ = {
+			isa = PBXGroup;
+			children = (
+				067813DC1EE5A0DA0002DDAE /* UIButtonX.swift */,
+				067813DD1EE5A0DA0002DDAE /* UIImageViewX.swift */,
+				067813DE1EE5A0DA0002DDAE /* UILabelX.swift */,
+				067813DF1EE5A0DA0002DDAE /* UISliderX.swift */,
+				067813E01EE5A0DA0002DDAE /* UITextFieldX.swift */,
+				067813E11EE5A0DA0002DDAE /* UIViewAnchorPoint.swift */,
+				067813E21EE5A0DA0002DDAE /* UIViewControllerX.swift */,
+				067813E31EE5A0DA0002DDAE /* UIViewX.swift */,
+				067813E41EE5A0DA0002DDAE /* UIViewXRadialGradient.swift */,
+				067813E51EE5A0DA0002DDAE /* UIVisualEffectViewX.swift */,
+			);
+			path = DesignableX;
+			sourceTree = "<group>";
+		};
+		1DC910A1C170DB76A399891B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C699DD4E8D340FDF15777A7 /* Pods_Erela.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87F0452059E1CE50265398F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46C9759F03DCEFC702F74AD4 /* Pods-Erela.debug.xcconfig */,
+				80624634B75100A7452EE7CD /* Pods-Erela.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 067813D31EE5991E0002DDAE /* Build configuration list for PBXNativeTarget "Erela" */;
 			buildPhases = (
+				DF58A71F75362D42EE7F1C3B /* [CP] Check Pods Manifest.lock */,
 				067813BA1EE5991E0002DDAE /* Sources */,
 				067813BB1EE5991E0002DDAE /* Frameworks */,
 				067813BC1EE5991E0002DDAE /* Resources */,
+				63AF5AE0F0C28B309D5645C9 /* [CP] Embed Pods Frameworks */,
+				EFEB9EB97716790B34330E4D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				067813CF1EE5991E0002DDAE /* LaunchScreen.storyboard in Resources */,
+				067813D71EE59A190002DDAE /* GoogleService-Info.plist in Resources */,
 				067813CC1EE5991E0002DDAE /* Assets.xcassets in Resources */,
 				067813C71EE5991E0002DDAE /* Main.storyboard in Resources */,
 			);
@@ -135,13 +231,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		63AF5AE0F0C28B309D5645C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Erela/Pods-Erela-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF58A71F75362D42EE7F1C3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFEB9EB97716790B34330E4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Erela/Pods-Erela-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		067813BA1EE5991E0002DDAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				067813C41EE5991E0002DDAE /* ViewController.swift in Sources */,
+				067813EF1EE5A0DA0002DDAE /* UIVisualEffectViewX.swift in Sources */,
+				067813E61EE5A0DA0002DDAE /* UIButtonX.swift in Sources */,
+				067813E71EE5A0DA0002DDAE /* UIImageViewX.swift in Sources */,
+				067813F11EE5A13F0002DDAE /* SignInVCView.swift in Sources */,
+				067813EE1EE5A0DA0002DDAE /* UIViewXRadialGradient.swift in Sources */,
+				067813ED1EE5A0DA0002DDAE /* UIViewX.swift in Sources */,
+				067813C41EE5991E0002DDAE /* WelcomeVC.swift in Sources */,
+				067813EB1EE5A0DA0002DDAE /* UIViewAnchorPoint.swift in Sources */,
+				067813E81EE5A0DA0002DDAE /* UILabelX.swift in Sources */,
+				067813EC1EE5A0DA0002DDAE /* UIViewControllerX.swift in Sources */,
+				067813EA1EE5A0DA0002DDAE /* UITextFieldX.swift in Sources */,
 				067813CA1EE5991E0002DDAE /* Erela.xcdatamodeld in Sources */,
+				067813E91EE5A0DA0002DDAE /* UISliderX.swift in Sources */,
 				067813C21EE5991E0002DDAE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +416,7 @@
 		};
 		067813D41EE5991E0002DDAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46C9759F03DCEFC702F74AD4 /* Pods-Erela.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HFRBUUM266;
@@ -274,6 +430,7 @@
 		};
 		067813D51EE5991E0002DDAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80624634B75100A7452EE7CD /* Pods-Erela.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HFRBUUM266;
@@ -304,6 +461,7 @@
 				067813D51EE5991E0002DDAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
