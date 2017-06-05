@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		067813C21EE5991E0002DDAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067813C11EE5991E0002DDAE /* AppDelegate.swift */; };
+		067813C41EE5991E0002DDAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067813C31EE5991E0002DDAE /* ViewController.swift */; };
+		067813C71EE5991E0002DDAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067813C51EE5991E0002DDAE /* Main.storyboard */; };
+		067813CA1EE5991E0002DDAE /* Erela.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 067813C81EE5991E0002DDAE /* Erela.xcdatamodeld */; };
+		067813CC1EE5991E0002DDAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 067813CB1EE5991E0002DDAE /* Assets.xcassets */; };
+		067813CF1EE5991E0002DDAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067813CD1EE5991E0002DDAE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		067813BE1EE5991E0002DDAE /* Erela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Erela.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		067813C11EE5991E0002DDAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		067813C31EE5991E0002DDAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		067813C61EE5991E0002DDAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		067813C91EE5991E0002DDAE /* Erela.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Erela.xcdatamodel; sourceTree = "<group>"; };
+		067813CB1EE5991E0002DDAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		067813CE1EE5991E0002DDAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		067813D01EE5991E0002DDAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		067813BB1EE5991E0002DDAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		067813B51EE5991E0002DDAE = {
+			isa = PBXGroup;
+			children = (
+				067813C01EE5991E0002DDAE /* Erela */,
+				067813BF1EE5991E0002DDAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		067813BF1EE5991E0002DDAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				067813BE1EE5991E0002DDAE /* Erela.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		067813C01EE5991E0002DDAE /* Erela */ = {
+			isa = PBXGroup;
+			children = (
+				067813C11EE5991E0002DDAE /* AppDelegate.swift */,
+				067813C31EE5991E0002DDAE /* ViewController.swift */,
+				067813C51EE5991E0002DDAE /* Main.storyboard */,
+				067813CB1EE5991E0002DDAE /* Assets.xcassets */,
+				067813CD1EE5991E0002DDAE /* LaunchScreen.storyboard */,
+				067813D01EE5991E0002DDAE /* Info.plist */,
+				067813C81EE5991E0002DDAE /* Erela.xcdatamodeld */,
+			);
+			path = Erela;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		067813BD1EE5991E0002DDAE /* Erela */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 067813D31EE5991E0002DDAE /* Build configuration list for PBXNativeTarget "Erela" */;
+			buildPhases = (
+				067813BA1EE5991E0002DDAE /* Sources */,
+				067813BB1EE5991E0002DDAE /* Frameworks */,
+				067813BC1EE5991E0002DDAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Erela;
+			productName = Erela;
+			productReference = 067813BE1EE5991E0002DDAE /* Erela.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		067813B61EE5991E0002DDAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "oskar ljungdahl";
+				TargetAttributes = {
+					067813BD1EE5991E0002DDAE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HFRBUUM266;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 067813B91EE5991E0002DDAE /* Build configuration list for PBXProject "Erela" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 067813B51EE5991E0002DDAE;
+			productRefGroup = 067813BF1EE5991E0002DDAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				067813BD1EE5991E0002DDAE /* Erela */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		067813BC1EE5991E0002DDAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067813CF1EE5991E0002DDAE /* LaunchScreen.storyboard in Resources */,
+				067813CC1EE5991E0002DDAE /* Assets.xcassets in Resources */,
+				067813C71EE5991E0002DDAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		067813BA1EE5991E0002DDAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067813C41EE5991E0002DDAE /* ViewController.swift in Sources */,
+				067813CA1EE5991E0002DDAE /* Erela.xcdatamodeld in Sources */,
+				067813C21EE5991E0002DDAE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		067813C51EE5991E0002DDAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				067813C61EE5991E0002DDAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		067813CD1EE5991E0002DDAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				067813CE1EE5991E0002DDAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		067813D11EE5991E0002DDAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		067813D21EE5991E0002DDAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		067813D41EE5991E0002DDAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HFRBUUM266;
+				INFOPLIST_FILE = Erela/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.oskarljungdahl.Erela;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		067813D51EE5991E0002DDAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HFRBUUM266;
+				INFOPLIST_FILE = Erela/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.oskarljungdahl.Erela;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		067813B91EE5991E0002DDAE /* Build configuration list for PBXProject "Erela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067813D11EE5991E0002DDAE /* Debug */,
+				067813D21EE5991E0002DDAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		067813D31EE5991E0002DDAE /* Build configuration list for PBXNativeTarget "Erela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067813D41EE5991E0002DDAE /* Debug */,
+				067813D51EE5991E0002DDAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		067813C81EE5991E0002DDAE /* Erela.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				067813C91EE5991E0002DDAE /* Erela.xcdatamodel */,
+			);
+			currentVersion = 067813C91EE5991E0002DDAE /* Erela.xcdatamodel */;
+			path = Erela.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 067813B61EE5991E0002DDAE /* Project object */;
+}
