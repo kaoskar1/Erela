@@ -26,6 +26,11 @@
 		067813EF1EE5A0DA0002DDAE /* UIVisualEffectViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067813E51EE5A0DA0002DDAE /* UIVisualEffectViewX.swift */; };
 		067813F11EE5A13F0002DDAE /* SignInVCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067813F01EE5A13F0002DDAE /* SignInVCView.swift */; };
 		108A1D646C1E852D56ECE15D /* Pods_Erela.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C699DD4E8D340FDF15777A7 /* Pods_Erela.framework */; };
+		2C2DD0A71F0A8B9A00D9A347 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2DD0A61F0A8B9A00D9A347 /* Constants.swift */; };
+		2C2DD0A91F0AA1BB00D9A347 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2DD0A81F0AA1BB00D9A347 /* FeedVC.swift */; };
+		2C41E4151F0677B200B88E13 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C41E4141F0677B200B88E13 /* Pacifico-Regular.ttf */; };
+		2C8D57541F110745000BD7C8 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D57531F110745000BD7C8 /* PostCell.swift */; };
+		2C8D57561F157A49000BD7C8 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D57551F157A49000BD7C8 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +55,12 @@
 		067813E51EE5A0DA0002DDAE /* UIVisualEffectViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVisualEffectViewX.swift; sourceTree = "<group>"; };
 		067813F01EE5A13F0002DDAE /* SignInVCView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVCView.swift; sourceTree = "<group>"; };
 		1C699DD4E8D340FDF15777A7 /* Pods_Erela.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Erela.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C2DD0A51F0720FF00D9A347 /* Erela.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Erela.entitlements; sourceTree = "<group>"; };
+		2C2DD0A61F0A8B9A00D9A347 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2C2DD0A81F0AA1BB00D9A347 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		2C41E4141F0677B200B88E13 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		2C8D57531F110745000BD7C8 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		2C8D57551F157A49000BD7C8 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		46C9759F03DCEFC702F74AD4 /* Pods-Erela.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Erela.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Erela/Pods-Erela.debug.xcconfig"; sourceTree = "<group>"; };
 		80624634B75100A7452EE7CD /* Pods-Erela.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Erela.release.xcconfig"; path = "Pods/Target Support Files/Pods-Erela/Pods-Erela.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,17 +98,20 @@
 		067813C01EE5991E0002DDAE /* Erela */ = {
 			isa = PBXGroup;
 			children = (
+				2C2DD0A51F0720FF00D9A347 /* Erela.entitlements */,
 				067813DB1EE5A0DA0002DDAE /* DesignableX */,
 				067813DA1EE5A0A20002DDAE /* Controller */,
 				067813D91EE5A08E0002DDAE /* View */,
 				067813D81EE5A0870002DDAE /* Model */,
 				067813C11EE5991E0002DDAE /* AppDelegate.swift */,
 				067813C51EE5991E0002DDAE /* Main.storyboard */,
+				2C8D57551F157A49000BD7C8 /* DataService.swift */,
 				067813CB1EE5991E0002DDAE /* Assets.xcassets */,
 				067813CD1EE5991E0002DDAE /* LaunchScreen.storyboard */,
 				067813D01EE5991E0002DDAE /* Info.plist */,
 				067813C81EE5991E0002DDAE /* Erela.xcdatamodeld */,
 				067813D61EE59A190002DDAE /* GoogleService-Info.plist */,
+				2C41E4141F0677B200B88E13 /* Pacifico-Regular.ttf */,
 			);
 			path = Erela;
 			sourceTree = "<group>";
@@ -112,6 +126,7 @@
 		067813D91EE5A08E0002DDAE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2C2DD0A61F0A8B9A00D9A347 /* Constants.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -121,6 +136,8 @@
 			children = (
 				067813C31EE5991E0002DDAE /* WelcomeVC.swift */,
 				067813F01EE5A13F0002DDAE /* SignInVCView.swift */,
+				2C2DD0A81F0AA1BB00D9A347 /* FeedVC.swift */,
+				2C8D57531F110745000BD7C8 /* PostCell.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -196,6 +213,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = HFRBUUM266;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -226,6 +248,7 @@
 				067813D71EE59A190002DDAE /* GoogleService-Info.plist in Resources */,
 				067813CC1EE5991E0002DDAE /* Assets.xcassets in Resources */,
 				067813C71EE5991E0002DDAE /* Main.storyboard in Resources */,
+				2C41E4151F0677B200B88E13 /* Pacifico-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +307,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C8D57541F110745000BD7C8 /* PostCell.swift in Sources */,
 				067813EF1EE5A0DA0002DDAE /* UIVisualEffectViewX.swift in Sources */,
 				067813E61EE5A0DA0002DDAE /* UIButtonX.swift in Sources */,
 				067813E71EE5A0DA0002DDAE /* UIImageViewX.swift in Sources */,
 				067813F11EE5A13F0002DDAE /* SignInVCView.swift in Sources */,
+				2C2DD0A91F0AA1BB00D9A347 /* FeedVC.swift in Sources */,
 				067813EE1EE5A0DA0002DDAE /* UIViewXRadialGradient.swift in Sources */,
+				2C2DD0A71F0A8B9A00D9A347 /* Constants.swift in Sources */,
 				067813ED1EE5A0DA0002DDAE /* UIViewX.swift in Sources */,
+				2C8D57561F157A49000BD7C8 /* DataService.swift in Sources */,
 				067813C41EE5991E0002DDAE /* WelcomeVC.swift in Sources */,
 				067813EB1EE5A0DA0002DDAE /* UIViewAnchorPoint.swift in Sources */,
 				067813E81EE5A0DA0002DDAE /* UILabelX.swift in Sources */,
