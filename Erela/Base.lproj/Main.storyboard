@@ -205,12 +205,30 @@
                     <connections>
                         <outlet property="passWordField" destination="k5A-ak-WE5" id="jh5-Zh-5au"/>
                         <outlet property="userNameField" destination="g19-zN-dz3" id="np6-NN-JUy"/>
-                        <segue destination="8ey-vW-3uE" kind="show" identifier="goToFeed" id="HwI-hV-IBx"/>
+                        <segue destination="rhL-zp-bqM" kind="show" identifier="goToFeed" id="oRU-IH-oqT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="504.80000000000001" y="136.28185907046478"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="6hd-AW-x2h">
+            <objects>
+                <viewController id="rhL-zp-bqM" customClass="ViewController2" customModule="Erela" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BWb-rU-9DX"/>
+                        <viewControllerLayoutGuide type="bottom" id="DK2-Kx-PeM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IHE-mb-Dpy" customClass="V">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nIa-iP-E9V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="433" y="1003"/>
         </scene>
         <!--FeedVC-->
         <scene sceneID="vAi-B4-Syv">
@@ -387,7 +405,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3SE-Zz-DC6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1461.5999999999999" y="134.48275862068968"/>
+            <point key="canvasLocation" x="1710" y="18"/>
         </scene>
     </scenes>
     <resources>
