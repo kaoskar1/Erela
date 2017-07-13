@@ -30,6 +30,7 @@
 		2C2DD0A91F0AA1BB00D9A347 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2DD0A81F0AA1BB00D9A347 /* FeedVC.swift */; };
 		2C41E4151F0677B200B88E13 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C41E4141F0677B200B88E13 /* Pacifico-Regular.ttf */; };
 		2C5E0B6F1F16EA8C00C2D328 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5E0B6E1F16EA8C00C2D328 /* ViewController2.swift */; };
+		2C5E0B711F17A3A400C2D328 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5E0B701F17A3A400C2D328 /* Post.swift */; };
 		2C8D57541F110745000BD7C8 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D57531F110745000BD7C8 /* PostCell.swift */; };
 		2C8D57561F157A49000BD7C8 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D57551F157A49000BD7C8 /* DataService.swift */; };
 /* End PBXBuildFile section */
@@ -61,6 +62,7 @@
 		2C2DD0A81F0AA1BB00D9A347 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		2C41E4141F0677B200B88E13 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		2C5E0B6E1F16EA8C00C2D328 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		2C5E0B701F17A3A400C2D328 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		2C8D57531F110745000BD7C8 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		2C8D57551F157A49000BD7C8 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		46C9759F03DCEFC702F74AD4 /* Pods-Erela.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Erela.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Erela/Pods-Erela.debug.xcconfig"; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				067813F01EE5A13F0002DDAE /* SignInVCView.swift */,
 				2C2DD0A81F0AA1BB00D9A347 /* FeedVC.swift */,
 				2C5E0B6E1F16EA8C00C2D328 /* ViewController2.swift */,
+				2C5E0B701F17A3A400C2D328 /* Post.swift */,
 				2C8D57531F110745000BD7C8 /* PostCell.swift */,
 			);
 			name = Controller;
@@ -329,6 +332,7 @@
 				067813CA1EE5991E0002DDAE /* Erela.xcdatamodeld in Sources */,
 				067813E91EE5A0DA0002DDAE /* UISliderX.swift in Sources */,
 				067813C21EE5991E0002DDAE /* AppDelegate.swift in Sources */,
+				2C5E0B711F17A3A400C2D328 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

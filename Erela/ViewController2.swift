@@ -11,15 +11,30 @@ import SwiftKeychainWrapper
 import Firebase
 
 class ViewController2: UIViewController {
+    
+    var posts = [Post]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         
-        DataService.ds.REF_POSTS.observe(.value) { (snapshot) in
-            print(snapshot.value)
-        }
-    }
+        DataService.ds.REF_POSTS.observe(.value, with: { (snapshot) in
+            if let snapshot = snapshot.children.allObjects as? [FIRDataSnapshot] {
+                
+                for snap in snapshot {
+                    print("SNAP: \(snap)")
+                    if let postDict = snap.value as? Dictionary<String, AnyObject>{
+                         let key = snap.key
+                        let post = Post(postKey: key, postData: postDict)
+                        self.posts.append(post)
+                    }
+                }
+                
+            }
+            
+        })
+}
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
