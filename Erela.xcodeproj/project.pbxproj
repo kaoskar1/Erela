@@ -31,6 +31,7 @@
 		2C41E4151F0677B200B88E13 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C41E4141F0677B200B88E13 /* Pacifico-Regular.ttf */; };
 		2C5E0B6F1F16EA8C00C2D328 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5E0B6E1F16EA8C00C2D328 /* ViewController2.swift */; };
 		2C5E0B711F17A3A400C2D328 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5E0B701F17A3A400C2D328 /* Post.swift */; };
+		2C5E0B731F18351A00C2D328 /* CustomSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5E0B721F18351900C2D328 /* CustomSegmentControl.swift */; };
 		2C8D57541F110745000BD7C8 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D57531F110745000BD7C8 /* PostCell.swift */; };
 		2C8D57561F157A49000BD7C8 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D57551F157A49000BD7C8 /* DataService.swift */; };
 /* End PBXBuildFile section */
@@ -63,6 +64,7 @@
 		2C41E4141F0677B200B88E13 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		2C5E0B6E1F16EA8C00C2D328 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		2C5E0B701F17A3A400C2D328 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		2C5E0B721F18351900C2D328 /* CustomSegmentControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegmentControl.swift; sourceTree = "<group>"; };
 		2C8D57531F110745000BD7C8 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		2C8D57551F157A49000BD7C8 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		46C9759F03DCEFC702F74AD4 /* Pods-Erela.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Erela.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Erela/Pods-Erela.debug.xcconfig"; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				067813CB1EE5991E0002DDAE /* Assets.xcassets */,
 				067813CD1EE5991E0002DDAE /* LaunchScreen.storyboard */,
 				067813D01EE5991E0002DDAE /* Info.plist */,
+				2C5E0B721F18351900C2D328 /* CustomSegmentControl.swift */,
 				067813C81EE5991E0002DDAE /* Erela.xcdatamodeld */,
 				067813D61EE59A190002DDAE /* GoogleService-Info.plist */,
 				2C41E4141F0677B200B88E13 /* Pacifico-Regular.ttf */,
@@ -325,6 +328,7 @@
 				2C8D57561F157A49000BD7C8 /* DataService.swift in Sources */,
 				2C5E0B6F1F16EA8C00C2D328 /* ViewController2.swift in Sources */,
 				067813C41EE5991E0002DDAE /* WelcomeVC.swift in Sources */,
+				2C5E0B731F18351A00C2D328 /* CustomSegmentControl.swift in Sources */,
 				067813EB1EE5A0DA0002DDAE /* UIViewAnchorPoint.swift in Sources */,
 				067813E81EE5A0DA0002DDAE /* UILabelX.swift in Sources */,
 				067813EC1EE5A0DA0002DDAE /* UIViewControllerX.swift in Sources */,
