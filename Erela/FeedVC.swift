@@ -12,7 +12,7 @@ import Firebase
 
 
 class FeedVC: UIViewController, UITableViewDelegate,UITableViewDataSource, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-
+    
     @IBOutlet weak var tableView:UITableView!
     
     var posts = [Post]()
@@ -20,9 +20,7 @@ class FeedVC: UIViewController, UITableViewDelegate,UITableViewDataSource, UIIma
     var imageSelected = false
     
     var imagePicker: UIImagePickerController!
-    
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -47,7 +45,7 @@ class FeedVC: UIViewController, UITableViewDelegate,UITableViewDataSource, UIIma
                 }
                 
             }
-           self.tableView.reloadData() 
+            self.tableView.reloadData()
         })
     }
     
@@ -65,9 +63,9 @@ class FeedVC: UIViewController, UITableViewDelegate,UITableViewDataSource, UIIma
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let post = posts[indexPath.row]
-
+        
         if let cell = tableView.dequeueReusableCell(withIdentifier: "PostCell") as? PostCell{
-
+            
             
             if let img = FeedVC.imageCache.object(forKey: post.imageUrl){
                 cell.configureCell(post: post, img: img)
@@ -83,37 +81,33 @@ class FeedVC: UIViewController, UITableViewDelegate,UITableViewDataSource, UIIma
             return PostCell()
         }
     }
-    
-    
-    /*
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
-        if let image = info[UIImagePickerControllerEditedImage] as? UIImage
-        
-        imageSeleted = true
-        imageAdd.image = image
-    
-    }
-        
-        imagePicker.dismiss(animated: true, completion: nil)
-    
-        '}
-    
-    @IBAction func addImage(_ sender: Any) {
-        present(imagePicker, animated: true, completion: nil)
-        
-        
-    }
-    */
+ /*  
+     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+     if let image = info[UIImagePickerControllerEditedImage] as? UIImage
+     
+     imageSeleted = true
+     imageAdd.image = image
+     
+     }
+     
+     imagePicker.dismiss(animated: true, completion: nil)
+     
+     '}
+     
+     @IBAction func addImage(_ sender: Any) {
+     present(imagePicker, animated: true, completion: nil)
+
+     }*/
     
     @IBAction func postImageBtn(_ sender: Any) {
         guard let caption = captionField.text , caption != "" else {
-                print("OSKAR: caption must be enterd")
-                return
+            print("OSKAR: caption must be enterd")
+            return
         }
         guard let img = imageAdd.image, imageSelected == true
             else {
-            print("OSKAR: an image mustb be selected")
-            
+                print("OSKAR: an image mustb be selected")
+                
                 return
         }
         if let imgData = UIImageJPEGRepresentation(img, 0,2){
@@ -121,18 +115,36 @@ class FeedVC: UIViewController, UITableViewDelegate,UITableViewDataSource, UIIma
             let imgUid = NSUUID().uuidString
             let metaData = FIRStorageMetadata()
             metaData.contentType = "image/jpeg"
-        
+            
             DataService.ds._REF_POST_IMAGES.child(imgUid).put(imgData,metaData) { (metaData, error) in
                 if error != nil {
                     print("OSKAR: unable to load image to firbase storage")
-                
+                    
                 } else {
                     let downloadURL = metaData?.downloadURL().absoluteString
+                    if let url = downloadURL {
+                       self.makeAFirebasePost(imgUrl: url)
+                    }
                 }
             }
         }
     }
-    
+
+    func makeAFirebasePost (imgUrl: String){
+        let post: Dictionary<String, AnyObject>[
+        "caption": captionField.text!,
+        "imageUrl": imgUrl,
+        "likes": 0
+        ]
+        
+        let firebasedPost = DataService.ds.REF_POSTS.childByAutoId()
+        firebasedPost.setValue(post)
+        
+        captionField.text = ""
+        imageSelected = false
+        //  imageAdd.image = UIImage(named: add-image) för ladda-upp-bilden
+        
+    }
     
     @IBAction func signOutBtn(_ sender: Any) {
         
@@ -140,6 +152,5 @@ class FeedVC: UIViewController, UITableViewDelegate,UITableViewDataSource, UIIma
         print("OSKAR: \(keyChainResult)")
         try! FIRAuth.auth()?.signOut()
         performSegue(withIdentifier: "goToSignIn", sender: nil)
-            }
-    
+    }
 }
