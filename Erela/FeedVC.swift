@@ -17,6 +17,7 @@ class FeedVC: UIViewController, UITableViewDelegate,UITableViewDataSource, UIIma
     
     var posts = [Post]()
     static var imageCache: NSCache<NSString, UIImage> = NSCache()
+    var imageSelected = false
     
     var imagePicker: UIImagePickerController!
     
@@ -82,10 +83,14 @@ class FeedVC: UIViewController, UITableViewDelegate,UITableViewDataSource, UIIma
             return PostCell()
         }
     }
+    
+    
     /*
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         if let image = info[UIImagePickerControllerEditedImage] as? UIImage
-            imageAdd.image = image
+        
+        imageSeleted = true
+        imageAdd.image = image
     
     }
         
@@ -99,6 +104,35 @@ class FeedVC: UIViewController, UITableViewDelegate,UITableViewDataSource, UIIma
         
     }
     */
+    
+    @IBAction func postImageBtn(_ sender: Any) {
+        guard let caption = captionField.text , caption != "" else {
+                print("OSKAR: caption must be enterd")
+                return
+        }
+        guard let img = imageAdd.image, imageSelected == true
+            else {
+            print("OSKAR: an image mustb be selected")
+            
+                return
+        }
+        if let imgData = UIImageJPEGRepresentation(img, 0,2){
+            
+            let imgUid = NSUUID().uuidString
+            let metaData = FIRStorageMetadata()
+            metaData.contentType = "image/jpeg"
+        
+            DataService.ds._REF_POST_IMAGES.child(imgUid).put(imgData,metaData) { (metaData, error) in
+                if error != nil {
+                    print("OSKAR: unable to load image to firbase storage")
+                
+                } else {
+                    let downloadURL = metaData?.downloadURL().absoluteString
+                }
+            }
+        }
+    }
+    
     
     @IBAction func signOutBtn(_ sender: Any) {
         
