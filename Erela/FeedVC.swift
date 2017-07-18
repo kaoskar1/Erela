@@ -15,6 +15,14 @@ class FeedVC: UIViewController, UITableViewDelegate,UITableViewDataSource, UIIma
     
     @IBOutlet weak var tableView:UITableView!
     
+    
+    // SV: För att ladda uoo bilder ENG: to make a upload 
+    
+    @IBOutlet weak var captionField: UITextFiled!
+    @IBOutlet weak var imageAdd: UIButtonX!
+    
+    
+    
     var posts = [Post]()
     static var imageCache: NSCache<NSString, UIImage> = NSCache()
     var imageSelected = false
@@ -67,16 +75,13 @@ class FeedVC: UIViewController, UITableViewDelegate,UITableViewDataSource, UIIma
         if let cell = tableView.dequeueReusableCell(withIdentifier: "PostCell") as? PostCell{
             
             
-            if let img = FeedVC.imageCache.object(forKey: post.imageUrl){
+            if let img = FeedVC.imageCache.object(forKey: post.imageUrl as NSString){
                 cell.configureCell(post: post, img: img)
-                return cell
             } else {
                 
                 cell.configureCell(post: post)
-                return cell
             }
-            
-            
+            return cell
         } else {
             return PostCell()
         }
@@ -131,7 +136,8 @@ class FeedVC: UIViewController, UITableViewDelegate,UITableViewDataSource, UIIma
     }
 
     func makeAFirebasePost (imgUrl: String){
-        let post: Dictionary<String, AnyObject>[
+        let post: Dictionary<String, AnyObject>
+        [
         "caption": captionField.text!,
         "imageUrl": imgUrl,
         "likes": 0
